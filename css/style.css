@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(119, 109, 109, 0.253)), to(rgba(102, 94, 94, 0.24))), url(../img/bg-masthead.jpg);
+  background: linear-gradient(rgba(119, 109, 109, 0.253), rgba(102, 94, 94, 0.24)), url(../img/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 758px;
+}
+
+#home header {
+  padding-top: 250px;
+  position: relative;
+}
+
+#home header h1 {
+  font-weight: 700;
+  font-size: 53px;
+  letter-spacing: 1;
+}
+
+#home header h1::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 44%;
+  width: 100px;
+  height: 2px;
+  background: #f4623a96;
+}
+
+#home header .sort-description {
+  color: rgba(255, 255, 255, 0.746);
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin: 20px 0 40px 0;
+}
+
+#home header .home-btn {
+  background: #F4623A;
+  color: #fff;
+  padding: 16px 36px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+#home header .home-btn:hover {
+  background: red;
+}
+
+#about {
+  background: #F4623A;
+  color: #fff;
+}
+
+#about .inner-about {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#about .inner-about h2 {
+  margin-bottom: 50px;
+}
+
+#about .sort-description {
+  color: rgba(255, 255, 255, 0.746);
+  font-size: 14px;
+  letter-spacing: 1;
+  margin: 20px 0 40px 0;
+}
+
+#about .btn-about {
+  padding: 12px 36px;
+  border-radius: 20px;
+  font-weight: 800;
+}
+
+#service {
+  padding-bottom: 100px;
+  background: #fff;
+  color: black;
+}
+
+#service .inner-service {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+
+#service .inner-service h2 {
+  margin-bottom: 20px;
+}
+
+#service .inner-service h2::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 44%;
+  width: 100px;
+  height: 2px;
+  background: #f4623a96;
+}
+
+#service .service-box {
+  text-align: center;
+  padding: 10px;
+}
+
+#service .service-box h4 {
+  margin-top: 35px;
+}
+
+#service .service-box .service-description {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+#service .service-box i {
+  font-size: 80px;
+  color: #F4623A;
+}
+
+#protfolio {
+  background: black;
+  color: #fff;
+  text-align: center;
+}
+
+#protfolio .inner-protfolio {
+  padding: 50px 0 100px 0;
+}
+
+#protfolio .protfolio-btn {
+  padding: 12px 26px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#contact {
+  background: #fff;
+  color: black;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+#contact p {
+  color: rgba(0, 0, 0, 0.664);
+  margin-bottom: 50px;
+}
+
+#contact .contact-box i {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#contact .contact-box p a {
+  color: red;
+}
+
+footer {
+  background: #e7e4e4;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px 0 7px 0;
+}
+/*# sourceMappingURL=style.css.map */
