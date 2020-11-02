@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
 }
 
+nav {
+  border-bottom: 1px solid #f4623ab4;
+  background: rgba(0, 0, 0, 0.431);
+}
+
 #home {
   color: #fff;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(119, 109, 109, 0.253)), to(rgba(102, 94, 94, 0.24))), url(../img/bg-masthead.jpg);
@@ -26,6 +31,7 @@ html {
   font-weight: 700;
   font-size: 53px;
   letter-spacing: 1;
+  margin-bottom: 30px;
 }
 
 #home header h1::after {
@@ -35,14 +41,14 @@ html {
   left: 44%;
   width: 100px;
   height: 2px;
-  background: #f4623a96;
+  background: #f4623adf;
 }
 
 #home header .sort-description {
   color: rgba(255, 255, 255, 0.746);
   font-size: 17px;
   letter-spacing: 2px;
-  margin: 20px 0 40px 0;
+  margin: 30px 0 40px 0;
 }
 
 #home header .home-btn {
@@ -71,6 +77,16 @@ html {
 
 #about .inner-about h2 {
   margin-bottom: 50px;
+}
+
+#about .inner-about h2::after {
+  content: " ";
+  position: absolute;
+  top: 30%;
+  left: 44%;
+  width: 100px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.849);
 }
 
 #about .sort-description {
@@ -110,7 +126,7 @@ html {
   left: 44%;
   width: 100px;
   height: 2px;
-  background: #f4623a96;
+  background: #f4623adf;
 }
 
 #service .service-box {
@@ -153,10 +169,21 @@ html {
   color: black;
   padding: 100px 0;
   text-align: center;
+  position: relative;
 }
 
 #contact h2 {
   margin-bottom: 50px;
+}
+
+#contact h2::after {
+  content: " ";
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  width: 100px;
+  height: 2px;
+  background: #f4623adf;
 }
 
 #contact p {
